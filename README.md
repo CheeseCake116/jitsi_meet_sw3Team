@@ -1,3 +1,10 @@
+# 소프트웨어설계 3팀 프로젝트 "M2M"
+
+2021년도 2학기 소프트웨어설계 강의에서 프로젝트로 제작한 Jitsi Meet 커스텀 홈페이지입니다.
+대학생 멘토와 멘티가 자유롭게 만나서 소통할 수 있는 공간을 만들기 위해 제작되었습니다.
+해당 프로젝트는 학기 중 구글 클라우드 서버에 올려 접속할 수 있도록 개방하였습니다.
+주 기능은 멘토와 멘티가 서로 만날 수 있는 "방 개설" 기능과 서로간에 메시지를 전달할 수 있는 채팅 기능입니다.
+
 # <p align="center">Jitsi Meet</p>
 
 Jitsi Meet is a set of Open Source projects which empower users to use and deploy
