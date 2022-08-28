@@ -1,0 +1,1025 @@
+body.welcome-page {
+    background: inherit;
+    overflow: auto;
+}
+
+.welcome {
+    background-image: $welcomePageBackground;
+    background-color: #fff;
+    flex-direction: column;
+    font-family: $welcomePageFontFamily;
+    position: relative;
+    height: 100%;
+
+    .black {
+        color: black;
+    }
+
+    .text-align-center {
+        text-align: center;
+    }
+
+    .bold {
+        font-weight: bold;
+    }
+
+    .header {
+        background-image: $welcomePageHeaderBackground;
+        background-position: $welcomePageHeaderBackgroundPosition;
+        background-repeat: $welcomePageHeaderBackgroundRepeat;
+        background-size: $welcomePageHeaderBackgroundSize;
+        padding-bottom: $welcomePageHeaderPaddingBottom;
+        background-color: #131519;
+        height: 220px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .header-text {
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-size: 25px;
+        margin-top: 80px;
+    }
+
+    .header-menu {
+        width: 100%;
+        height: 80px;
+    }
+
+    .header-menu-items {
+        width: 1000px;
+        height: 100%;
+        margin: auto;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .header-menu-logo {
+        width: 120px;
+        height: 48px;
+        background-image: $welcomePageLogo;
+        background-size: contain;
+        cursor: pointer;
+        background-repeat: no-repeat;
+        margin: auto 0px;
+    }
+
+    .header-menu-ul {
+        list-style: none;
+        margin: auto;
+        height: 100%;
+    }
+
+    .header-menu-li {
+        text-align: center;
+        color: black;
+        font-size: 18px;
+        float: left;
+        font-weight: bold;
+        cursor: pointer;
+        height: 100%;
+        width: 124px;
+    }
+
+    .bottom-red {
+        box-shadow: 0px -5px 0 #c62917 inset;
+    }
+
+    .homepage-button {
+        background-image: $homepageImage;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+        height: 30px;
+        margin: 25px 0;
+    }
+
+    .header-menu-li-p {
+        margin: 30px 0px;
+    }
+
+    .header-menu-flex {
+        display: flex;
+    }
+
+    .header-menu-login {
+        margin: auto 10px;
+        color: black;
+        font-weight: bold;
+        cursor: pointer;
+        width: 80px;
+    }
+
+    .reload-button {
+        width: 20px;
+        height: 20px;
+        background-image: $reloadImage;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        margin: auto 0px auto 20px;
+        cursor: pointer;
+    }
+
+    .reload-button-cool {
+        background-image: $reloadCoolImage;
+        cursor: default;
+    }
+
+    .report-button {
+        width: 30px;
+        height: 30px;
+        background-image: $reportImage;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        margin: auto;
+        cursor: pointer;
+    }
+
+    .intro-text {
+        font-family: 'NanumSquareBold';
+        color: black;
+        font-size: 16px;
+        text-align: left;
+        padding: 30px 0;
+        line-height: 30px;
+        width: 940px;
+        margin: auto;
+    }
+
+    .mento-section {
+        width: 1000px;
+        margin: 50px auto;
+    }
+
+    .mento-section-text {
+        color: black;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 30px;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        font-size: 25px;
+    }
+
+    .mento-register-div {
+        display: flex;
+        float: right;
+        margin: 24px 0px;
+    }
+
+    .mento-register-text {
+        font-weight: bold;
+        color: black;
+        padding: 5px;
+        margin: 0 10px;
+    }
+
+    .mento-register-button {
+        border: 0px;
+        background-color: #c62917;
+        width: 200px;
+        height: 40px;
+        font-size: 16px;
+        margin: 0 0 0 10px;
+    }
+
+    .mento-register-input {
+        font-size: 16px;
+        width: 400px;
+        height: 40px;
+        padding: 0px 10px;
+    }
+
+    .visible {
+        visibility: visible;
+    }
+
+    .hidden {
+        visibility: hidden;
+    }
+
+    .mento-register-area {
+        color: black;
+        font-size: 18px;
+    }
+
+    .mento-profile-container {
+        width: 100%;
+        height: 400px;
+        font-size: 18px;
+        color: black;
+        overflow: auto;
+    }
+
+    .mento-profile-table {
+        width: 100%;
+        font-size: 18px;
+        color: black;
+        text-align: center;
+        border-spacing: 0px 10px;
+    }
+
+    .follow-button {
+        border-radius: 0px;
+        border: solid 2px #c62917;
+        background-color: white;
+        color: #c62917;
+        width: 170px;
+        height: 36px;
+        font-size: 14px;
+        font-weight: bold;
+        margin: auto;
+    }
+
+    .unfollow-button {
+        border-radius: 0px;
+        border: solid 2px #595959;
+        background-color: white;
+        color: #595959;
+        width: 170px;
+        height: 36px;
+        font-size: 14px;
+        font-weight: bold;
+        margin: auto;
+    }
+
+    .mentee-section {
+        width: 1000px;
+        margin: 50px auto;
+    }
+    
+    .follow-section {
+        width: 1000px;
+        margin: 50px auto;
+        margin-bottom: 0px;
+    }
+
+    .follow-container {
+        display: flex;
+        margin: auto;
+        width: 756px;
+    }
+
+    .friend-list-section {
+        background-color: white;
+        width: 300px;
+        height: 500px;
+        margin: 0 0 0 18px;
+        padding: 0px;
+        border-radius: 12px;
+        border: solid 3px rgb(184, 199, 224);
+    }
+
+    .friend-list-text {
+        color: black;
+        font-weight: bold;
+        margin: 20px 31px;
+        text-align: left;
+        display: flex
+    }
+
+    .friend-list {
+        overflow: auto;
+        height: 434px;
+    }
+
+    .message-section {
+        background-color: white;
+        border-radius: 12px;
+        width: 387px;
+        height: 500px;
+        margin: 0px 0px 0px 50px;
+        border: solid 1px;
+    }
+
+    .friend-message-section {
+        background-color:rgb(209, 230, 240);
+        width:  100%;
+        height:  90%;
+        border-radius:  12px 12px 0px 0px;
+        text-align: center;
+    }
+
+    .friend-message-intro-text {
+        font-size: 14px;
+        color: #888888;
+    }
+
+    .friend-message-text {
+        color: black;
+        font-weight: bold;
+        padding: 10px;
+        height: 40px;
+        text-align: center;
+    }
+
+    .friend-message-scroll-section {
+        overflow: auto;
+        height: 387px;
+    }
+
+    .text-me-section {
+        float: right;
+        max-width: 250px;
+        width: 100%;
+        margin: 5px 10px 5px 79px;
+        text-align: right;
+    }
+
+    .text-friend-section {
+        float: left;
+        max-width: 250px;
+        width: 100%;
+        margin: 5px 79px 5px 10px;
+        text-align: left;
+    }
+
+    .message-name {
+        text-align: left;
+        color: black;
+        padding: 5px 0px;
+    }
+
+    .text-me {
+        min-width: 40px;
+        min-height: 0px;
+        background-color: white;
+        border-radius: 8px;
+        overflow: hidden;
+        word-wrap: break-word;
+        padding: 10px;
+        text-align: left;
+        font-size: 18px;
+        color: black;
+        display: inline-block;
+    }
+
+    .text-friend {
+        min-width: 40px;
+        min-height: 0px;
+        background-color: white;
+        border-radius: 8px;
+        overflow: hidden;
+        word-wrap: break-word;
+        padding: 10px;
+        text-align: left;
+        font-size: 18px;
+        color: black;
+        display: inline-block;
+    }
+
+    .send-message-section {
+        width: 100%;
+        height: 49px;
+        background-color: white;
+        border-radius:  0px 0px 12px 12px;
+        display:  flex;
+    }
+
+    .input-message {
+        width: 293px;
+        height: 40px;
+        margin: auto 10px auto 10px;
+        border:  0px;
+        border-radius: 4px;
+        font-size: 18px;
+        padding: 0px 10px;
+        background-color: #eee;
+    }
+
+    .message-send-button {
+        font-size: 18px;
+        width: 60px;
+        height:  40px;
+        margin: auto 10px auto 0px;
+        border: 0px;
+    }
+
+    .login-section {
+        width: 360px;
+        margin: 0px auto;
+        padding: 50px 0px;
+    }
+
+    .mentee-room-section {
+        width: 700px;
+        height: 700px;
+        background-color: aliceblue;
+    }
+
+    .login-input-container {
+        width: 360px;
+        height: 79px;
+        margin: 10px auto;
+    }
+
+    .login-text {
+        color: black;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .login-input {
+        width: 360px;
+        height: 40px;
+        border: solid 1px grey;
+        font-size: 18px;
+        text-align: center;
+        padding: 0px 10px;
+        margin-bottom: 5px;
+    }
+
+    .login-button {
+        width: 360px;
+        height: 40px;
+        background-color: #c62917;
+        color: white;
+        border: 0px;
+        margin-bottom: 30px;
+    }
+
+    .chatting-section {
+        background-color: aqua;
+        width: 300px;
+        height: 700px;
+    }
+
+    .signup-input-container {
+        width: 360px;
+        height: 260px;
+        margin: 10px auto;
+    }
+
+    // ------------------------------------------------------
+
+    .header-container {
+        display: $welcomePageHeaderContainerDisplay;
+        flex-direction: column;
+        margin: $welcomePageHeaderContainerMargin;
+        z-index: $zindex2;
+    }
+
+    .header-text-title {
+        color: $welcomePageTitleColor;
+        font-size: $welcomePageHeaderTextTitleFontSize;
+        font-weight: $welcomePageHeaderTextTitleFontWeight;
+        line-height: $welcomePageHeaderTextTitleLineHeight;
+        margin-bottom: $welcomePageHeaderTextTitleMarginBottom;
+        max-width: $welcomePageHeaderTitleMaxWidth;
+        opacity: $welcomePageHeaderTextTitleOpacity;
+        text-align: $welcomePageHeaderTextAlign;
+    }
+
+    .header-text-subtitle {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 26px;
+        margin: 16px 0 32px 0;
+        text-align: $welcomePageHeaderTextAlign;
+    }
+
+    .userid-text, .userpw-text, .username-text {
+        color: #000;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 26px;
+        min-width: 100px;
+        text-align: center;
+    }
+
+    #enter_room, .userid, .userpw {
+        display: $welcomePageEnterRoomDisplay;
+        align-items: center;
+        width: 431px;
+        z-index: $zindex2;
+        background-color: #fff;
+        padding: $welcomePageEnterRoomPadding;
+        border-radius: 4px;
+        margin: $welcomePageEnterRoomMargin;
+        padding: 4px;
+        border: solid;
+
+        .enter-room-input-container, .enter-user-name-container {
+            text-align: left;
+            color: #253858;
+            flex-grow: 1;
+            height: fit-content;
+            padding-right: 4px;
+            position: relative;
+
+            .enter-room-input, .user-name-input {
+                border: 0;
+                background: #fff;
+                display: inline-block;
+                height: 50px;
+                width: 100%;
+                font-size: 14px;
+                padding-left: 10px;
+
+                &:focus {
+                    outline: auto 2px #005fcc;
+                }
+            }
+
+            .insecure-room-name-warning {
+                align-items: center;
+                color: $defaultWarningColor;
+                display: flex;
+                flex-direction: row;
+                margin-top: 15px;
+
+                .jitsi-icon {
+                    margin-right: 15px;
+
+                    svg {
+                        fill: $defaultWarningColor
+                    }
+                }
+            }
+
+            ::placeholder {
+                color: #253858;
+            }
+        }
+
+        .warning-without-link {
+            position: absolute;
+            top: 44px;
+            left: -10px;
+        }
+
+        .warning-with-link {
+            position: absolute;
+            top: 84px;
+        }
+
+    }
+
+    // ----------------------------------------------------------
+    // 두번째 페이지
+
+    #enter_room {
+        padding: 0px auto;
+    }
+
+    .waiting-container {
+        background-color: lightgrey;
+        width: 780px;
+        height: 700px;
+        position: absolute;
+        top: calc(50% - 350px);
+        left: calc(50% - 390px);
+        border-radius: 12px;
+        z-index: 1;
+        text-align: center;
+        box-shadow: 0px 0px 10px 10px rgb(0 0 0 / 30%);
+    }
+
+    .profile-container {
+        display: inline-flex;
+        margin: 25px 0px;
+    }
+
+    .welcome-profile-image {
+        background-image: $profileImage;
+        background-size: 30px 30px;
+        background-repeat: no-repeat;
+        width: 30px;
+        height: 30px;
+        margin: 0px;
+    }
+
+    .welcome-text {
+        color: black;
+        margin: 0px 0px 0px 10px;
+        font-weight: bold;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 90px;
+        text-align: left;
+    }
+
+    .waiting-container-close {
+        position: absolute;
+        right: 30px;
+        top: 30px;
+        border: 0px;
+        width: 35px;
+        height: 35px;
+        background-color: rgba(0, 0, 0, 0);
+        color: black;
+        float: right;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+
+    .waiting-container-close:hover {
+        box-shadow: 200px 0 0 0 rgba(0, 0, 0, 0.15) inset;
+    }
+
+    .enter-room-section {
+        display: flex;
+    }
+
+    .friend-box {
+        display: flex;
+        margin: 20px 0px 0px 30px;
+    }
+
+    .friend-profile-image {
+        background-image: $profileImage;
+        background-size: 30px 30px;
+        background-repeat: no-repeat;
+        width: 30px;
+        height: 30px;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .friend-name-text {
+        padding:  0px;
+        margin: 0px 0px 0px 10px;
+        color: black;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 130px;
+        text-align: left;
+    }
+
+    .friend-message-img {
+        background-image: $speechBubbleImage;
+        background-size: 30px 30px;
+        background-repeat: no-repeat;
+        width: 30px;
+        height: 30px;
+        margin: 0 0 0 15px;
+        padding: 0px;
+        cursor: pointer;
+    }
+
+    .friend-add-button {
+        width: 90%;
+        height: 50px;
+        margin: 30px auto;
+        border: 0px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .room-section {
+        width: 100%;
+    }
+
+    .generate-room-text {
+        color: black;
+        font-weight: bold;
+        margin: 20px;
+    }
+
+    .generated-room-list {
+        background-color: white;
+        width: 495px;
+        height: 521px;
+        border-radius: 12px;
+        margin: 16px auto;
+    }
+
+    .generated-room-list-menu {
+        display: flex;
+        padding: 10px 10px;
+    }
+
+    .generated-room-list-text {
+        background-color: #eeeeee;
+        color: black;
+        font-weight: bold;
+        margin: 15px;
+        padding: 10px;
+        width: 50%;
+        border-radius: 8px;
+        cursor:  pointer;
+    }
+
+    .generated-room-list-text:hover {
+        box-shadow: 500px 0 0 0 rgb(0 0 0 / 15%) inset;
+    }
+
+    .generated-room-hr {
+        width: 90%;
+        border-top: 1px dashed #bbb;
+        border-bottom: 1px dashed #fff;
+        margin: 10px auto;
+    }
+
+    .generated-room-list-section {
+        overflow: auto;
+        width: 100%;
+        height: 362px;
+        margin: 30px 0px;
+    }
+
+    .generated-room {
+        background-color: #eee;
+        width: 450px;
+        height: 48px;
+        border-radius: 5px;
+        margin: auto;
+        margin-bottom: 12px;
+        cursor: pointer;
+        display: flex;
+    }
+
+    .generated-room:hover {
+        box-shadow: 500px 0 0 0 rgb(0 0 0 / 15%) inset;
+    }
+
+    .generated-room-name-text {
+        color: black;
+        margin: 0px;
+        text-align: left;
+        padding: 10px 0 0 12px;
+        width: 70%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .generated-room-info {
+        width: 30%;
+        padding: 5px 7px 0 0;
+    }
+
+    .generated-room-host {
+        margin: 0px;
+        text-align: right;
+        width: 100%;
+        color:#888;
+        font-size: 12px;
+    }
+
+    .generated-room-constraint {
+        margin: 5px 0 0 0;
+        text-align: right;
+        width: 100%;
+        color:red;
+        font-size: 12px;
+    }
+
+    .friend-add-section {
+        background-color: white;
+        border-radius: 12px;
+        width: 495px;
+        height: 595px;
+        margin: 0px auto;
+    }
+
+    .friend-add-board {
+        width: 100%;
+        height: 90%;
+        display: flex;
+    }
+
+    .recommend-friend-section {
+        width: 50%;
+        height: 100%;
+    }
+
+    .friend-add-section-text {
+        color: black;
+        font-weight: bold;
+        margin: 20px 31px;
+        text-align: left;
+    }
+
+    .recommend-friend-list {
+        width: 100%;
+        height: 510px;
+        overflow: auto;
+    }
+
+    .recent-people-section {
+        width: 50%;
+        height: 100%;
+    }
+
+    .recent-people-list {
+        width: 100%;
+        height: 510px;
+        overflow: auto;
+    }
+
+    .friend-add-button2 {
+        border: 0px;
+        width: 30px;
+        height: 30px;
+        margin: 0px 0px 0px 36px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    
+
+    // -------------------------------------------------
+
+    #moderated-meetings {
+        max-width: calc(100% - 40px);
+        padding: 16px 0 39px 0;
+        width: $welcomePageEnterRoomWidth;
+
+        p {
+            color: $welcomePageDescriptionColor;
+            float: left;
+            text-align: $welcomePageHeaderTextAlign;
+
+            a {
+                color: inherit;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .tab-container {
+        font-size: 16px;
+        position: relative;
+        text-align: left;
+        display: $welcomePageTabContainerDisplay;
+        flex-direction: column;
+
+        .tab-content{
+            display: $welcomePageTabContentDisplay;
+            height: 250px;
+            margin: 5px 0px;
+            overflow: hidden;
+            flex-grow: 1;
+            position: relative;
+        }
+
+        .tab-buttons {
+            background-color: #c7ddff;
+            border-radius: 6px;
+            color: #0163FF;
+            font-size: 14px;
+            line-height: 18px;
+            margin: 4px;
+            display: $welcomePageTabButtonsDisplay;
+
+            .tab {
+                background-color: #c7ddff;
+                border-radius: 7px;
+                cursor: pointer;
+                display: $welcomePageTabDisplay;
+                flex-grow: 1;
+                margin: 2px;
+                padding: 7px 0;
+                text-align: center;
+
+                &.selected {
+                    background-color: #FFF;
+                }
+            }
+
+        }
+    }
+
+    .welcome-page-button {
+        border: 0;
+        font-size: 14px;
+        background: #0074E0;
+        border-radius: 3px;
+        color: #FFFFFF;
+        cursor: pointer;
+        padding: 16px 20px;
+
+        &:focus-within {
+            outline: auto 2px #022e61;
+        }
+    }
+
+    .welcome-page-settings {
+        background: rgba(255, 255, 255, 0.38);
+        border-radius: 3px;
+        color: $welcomePageDescriptionColor;
+        padding: 4px;
+        position: absolute;
+        top: 32px;
+        right: 32px;
+        z-index: $zindex2;
+
+        * {
+            cursor: pointer;
+            font-size: 32px;
+        }
+
+        .toolbox-icon {
+            height: 24px;
+            width: 24px;
+        }
+    }
+
+    .welcome-watermark {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+
+        .watermark.leftwatermark {
+            width: $welcomePageWatermarkWidth;
+            height: $welcomePageWatermarkHeight;
+        }
+    }
+
+    &.without-content {
+        .welcome-card {
+            min-width: 500px;
+            max-width: 580px;
+        }
+    }
+
+    &.without-footer {
+        justify-content: start;
+    }
+
+    .welcome-cards-container {
+        color:#131519;
+        padding-top: 40px;
+    }
+
+    .welcome-card-row {
+        display: flex;
+        justify-content: center;
+        padding: 0 32px;
+    }
+
+    .welcome-card-text {
+        padding: 32px;
+    }
+
+    .welcome-card {
+        width: 49%;
+        border-radius: 8px;
+
+        &--dark {
+            background: #444447;
+            color: #fff;
+        }
+
+        &--blue {
+            background: #D5E5FF;
+        }
+
+        &--grey {
+            background: #F2F3F4;
+        }
+
+        &--shadow {
+            box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+        }
+    }
+
+    .welcome-footer {
+        background: #131519;
+        color: #fff;
+        position: absolute;
+        bottom: 0%;
+        width: 100%;
+    }
+
+    .welcome-footer-centered {
+        max-width: 688px;
+        margin: 0 auto;
+    }
+
+    .welcome-footer-padded {
+        padding: 0px 16px;
+    }
+
+    .welcome-footer-row-block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #424447;
+
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+
+    .welcome-footer--row-1 {
+        padding: 40px 0 40px 0;
+    }
+
+    .welcome-footer-row-1-text {
+        margin-right: 16px;
+        width: 100%;
+        text-align: center;
+    }
+}
