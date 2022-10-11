@@ -1,18 +1,42 @@
 # 소프트웨어설계 3팀 프로젝트 "M2M"
 
-- 소개
 <img src="https://user-images.githubusercontent.com/33691228/194996526-0bf43920-f65a-4f84-becf-7b8f1b4eecf8.png"/>
-2021년도 2학기 소프트웨어설계 강의에서 프로젝트로 제작한, 오픈소스 Jitsi Meet의 커스텀 홈페이지입니다.
-해당 강의는 오픈소스 회의방을 이용해 실제로 서비스가 가능한 웹서비스를 제작하는 것이 목표였습니다.
+2021년도 2학기 소프트웨어설계 강의에서 프로젝트로 제작한, 오픈소스 Jitsi Meet의 커스텀 홈페이지입니다.<br/>
+해당 강의는 오픈소스 회의방을 이용해 실제로 서비스가 가능한 웹서비스를 제작하는 것이 목표였습니다.<br/>
+<br/>
+저희 팀은 대학생 멘토와 멘티가 자유롭게 만나서 소통할 수 있는 공간을 만들기 위해 M2M 웹서비스를 제작하였습니다.<br/>
+해당 프로젝트는 수업 기간 중 구글 클라우드서버와 파이어베이스를 이용해 접속할 수 있도록 개방하였습니다.<br/>
+주 기능은 멘토와 멘티가 서로 만날 수 있는 "방 개설" 기능과 서로간에 메시지를 전달할 수 있는 채팅 기능입니다.<br/>
+<br/>
+<a href="https://github.com/CheeseCake116/jitsi_meet_sw3Team/blob/main/SW%203%EC%A1%B0%20%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C.pdf">최종 발표자료</a><br/>
+<br/>
+<br/>
 
-저희 팀은 대학생 멘토와 멘티가 자유롭게 만나서 소통할 수 있는 공간을 만들기 위해 M2M 웹서비스를 제작하였습니다.
-해당 프로젝트는 수업 기간 중 구글 클라우드서버와 파이어베이스를 이용해 접속할 수 있도록 개방하였습니다.
-주 기능은 멘토와 멘티가 서로 만날 수 있는 "방 개설" 기능과 서로간에 메시지를 전달할 수 있는 채팅 기능입니다.
-
-<a href="https://github.com/CheeseCake116/jitsi_meet_sw3Team/blob/main/SW%203%EC%A1%B0%20%EB%B0%9C%ED%91%9C%EC%9E%90%EB%A3%8C.pdf">최종 발표자료</a>
-
-
-
+## 커스텀한 부분
+css/_welcome_page.scss<br/>
+css/_variables.scss<br/>
+<br/>
+images/homepage.png<br/>
+images/kebabMenu.png<br/>
+images/logo.png<br/>
+images/logo_old.png<br/>
+images/M2Mlogo.png<br/>
+images/personImage.png<br/>
+images/reload.png<br/>
+images/reload_cool.png<br/>
+images/reportImage.png<br/>
+images/speech-bubble.png<br/>
+images/welcomeImage.png<br/>
+<br/>
+react/features/welcome/components/AbstractWelcomePage copy.js (작업중 백업파일)<br/>
+react/features/welcome/components/AbstractWelcomePage.js<br/>
+react/features/welcome/components/WelcomePage.web.js<br/>
+react/features/welcome/components/WelcomePage.web(2)~(8).js (작업중 백업파일)<br/>
+react/features/welcome/components/WelcomePage_socketCustom.web.js (작업중 백업파일)<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 # <p align="center">Jitsi Meet</p>
 
 Jitsi Meet is a set of Open Source projects which empower users to use and deploy
