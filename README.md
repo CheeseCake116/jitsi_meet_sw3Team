@@ -35,6 +35,17 @@ react/features/welcome/components/WelcomePage.web(2)~(8).js (작업중 백업파
 react/features/welcome/components/WelcomePage_socketCustom.web.js (작업중 백업파일)<br/>
 <br/>
 <br/>
+## 커스텀 설명
+Jitsi Meet은 nginx와 react를 사용하는 오픈소스 회의 웹서비스입니다.<br/>
+Jitsi Meet에 접속하면 먼저 welcome page가 등장하고, 이곳에서 원하는 방 이름을 입력하면<br/>
+방이 새로 개설되거나 해당 이름의 방에 접속이 됩니다.<br/>
+<br/>
+이 프로젝트에서는 welcome page를 M2M의 홈페이지로 커스텀하였고, 홈페이지에서는 M2M을 통해 개설된 방의 목록을 보여주며<br/>
+이 목록에서 방을 골라 회의방에 접속할 수 있는 구조로 제작하였습니다.<br/>
+<br/>
+서버는 초기에는 아마존의 AWS 서비스를 이용하려고 했으나, 프리 티어 서버는 램이 너무 적어서<br/>
+램을 더 많이 주는 구글 클라우드 서비스를 이용하였고, 데이터베이스는 파이어베이스를 사용하였습니다.<br/>
+<br/>
 <br/>
 <br/>
 # <p align="center">Jitsi Meet</p>
